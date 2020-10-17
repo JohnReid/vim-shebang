@@ -87,6 +87,9 @@ AddShebangPattern! python     ^#!.*\s\+python\>
 AddShebangPattern! python     ^#!.*[s]\?bin/python\>
 " js
 AddShebangPattern! javascript ^#!.*\s\+node\>
+" R
+AddShebangPattern! r          ^#!.*/bin/env\s\+R\>
+AddShebangPattern! r          ^#!.*/bin/env\s\+Rscript\>
 
 " }}}
 " Key bindings {{{
